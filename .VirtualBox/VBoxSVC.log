@@ -1,0 +1,70 @@
+00:00:00.003965 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.003968 main     Log opened 2025-03-29T22:47:10.910936900Z
+00:00:00.003968 main     Build Type: release
+00:00:00.003973 main     OS Product: Windows 11
+00:00:00.003973 main     OS Release: 10.0.22631
+00:00:00.003974 main     OS Service Pack: 
+00:00:00.057707 main     DMI Product Name: VivoBook_ASUSLaptop X421JQY_K413JQ
+00:00:00.066861 main     DMI Product Version: 1.0       
+00:00:00.066873 main     Firmware type: UEFI
+00:00:00.067268 main     Secure Boot: Disabled
+00:00:00.067278 main     Host RAM: 7883MB (7.6GB) total, 1906MB available
+00:00:00.067282 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.067283 main     Process ID: 4520
+00:00:00.067283 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.067577 main     Windows Features:
+00:00:00.067577 main       Core Isolation (Memory Integrity): Not supported
+00:00:00.138877          VirtualBox: object creation starts
+00:00:00.140065          Home directory: 'C:\Users\62821\.VirtualBox'
+00:00:00.140285          Installed Drivers:
+00:00:00.144292            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.1.4.15100)
+00:00:00.145348            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.1.4.15100)
+00:00:00.146158            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.1.4.15100)
+00:00:00.147350            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.1.4.15100)
+00:00:00.171330          Loading settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.179523          usbLibGetDevices: Starting USB device enumeration
+00:00:00.211403          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.211866          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.211929          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&27bcf9ab&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.213980          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.216877          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56a2)
+00:00:00.217118          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.338393          HostDnsMonitor: initializing
+00:00:00.345054          HostDnsMonitor: updating information
+00:00:00.345578          HostDnsMonitor: old information
+00:00:00.345579            no server entries
+00:00:00.345580            no domain set
+00:00:00.345580            no search string entries
+00:00:00.345581          HostDnsMonitor: new information
+00:00:00.345581            server 1: 192.168.1.1
+00:00:00.345582            no domain set
+00:00:00.345582            no search string entries
+00:00:00.394547          VD: VDInit finished with VINF_SUCCESS
+00:00:00.528671          Platform architecture set to 'x86'
+00:00:00.540304          Loading settings file "C:\Users\62821\VirtualBox VMs\noval\noval.vbox" with version "1.19-windows"
+00:00:00.542396          Platform architecture set to 'x86'
+00:00:00.543851          Platform architecture set to 'x86'
+00:00:00.555120          Loading settings file "C:\Users\62821\VirtualBox VMs\febrian\febrian.vbox" with version "1.19-windows"
+00:00:00.555299          Platform architecture set to 'x86'
+00:00:00.575062          OCI: Local config file 'C:\Users\62821\.VirtualBox\oci_config' does not exist
+00:00:00.575117          OCI: Original config file 'C:\Users\62821\.oci\config' does not exist
+00:00:00.575118          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:00.575992          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:00.576064          VirtualBox: object created
+00:00:00.708642          Saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.711489          Finished saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml"
+00:00:00.711712          Saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.713614          Finished saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml"
+00:00:00.713886          Saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.716023          Finished saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml"
+00:00:01.601353          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.731509          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.842905          Saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.845146          Finished saving settings file "C:\Users\62821\.VirtualBox\VirtualBox.xml"
+00:00:09.400731 main     VirtualBox: object deletion starts
+00:00:09.403062 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\62821\VirtualBox VMs\noval\noval.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.404671 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\62821\VirtualBox VMs\febrian\febrian.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.407216 main     HostDnsMonitor: shutting down ...
+00:00:09.407420 main     HostDnsMonitor: shut down
+00:00:09.411791 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:09.412394 main     VirtualBox: object deleted
