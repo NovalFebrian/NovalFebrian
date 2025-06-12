@@ -39,7 +39,7 @@ end = (GRID_WIDTH - 2, GRID_HEIGHT - 2)
 # Gabungan semua pertanyaan (lama + baru)
 door_questions = {
     (5, 5): {
-        "question": "Apa kepanjangan dari GPU?",
+        "question": "Apa kepanjangan dari CPU?",
         "options": ["Central Processing Unit", "Control Program Unit", "Computer Personal Unit", "Computer Unit Processing"],
         "answer": "Central Processing Unit"
     },
